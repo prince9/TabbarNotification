@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController {
-    //カウンタ用数値
+    //カウンタ用数値、counter
     int count;
 }
 
-//カウンタの値表示
+//カウンタの値表示、View counter value 
 @property (weak, nonatomic) IBOutlet UILabel *countText;
-//メッセージ表示
+//メッセージ表示、View massage
 @property (weak, nonatomic) IBOutlet UILabel *mText;
-//スライドの値表示
+//スライドの値表示、View slider value 
 @property (weak, nonatomic) IBOutlet UILabel *sliderValue;
-//テキスト入力表示
+//テキスト入力表示、View text input
 @property (weak, nonatomic) IBOutlet UILabel *textF;
 @end
